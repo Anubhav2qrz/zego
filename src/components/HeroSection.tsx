@@ -18,14 +18,14 @@ const HeroSection = () => {
 
   return (
     <section ref={sectionRef} className="relative min-h-screen flex items-center justify-center overflow-hidden">
-      {}
+      { }
       <motion.div
         className="absolute inset-0 bg-cover bg-center opacity-40"
         style={{ backgroundImage: `url(${heroBg})`, y: bgY }}
       />
       <div className="absolute inset-0 bg-gradient-to-b from-background/60 via-background/30 to-background" />
 
-      {}
+      { }
       <div className="absolute top-20 left-[10%] w-72 h-72 rounded-full bg-neon-purple/10 blur-[100px] animate-float" />
       <div className="absolute bottom-20 right-[10%] w-96 h-96 rounded-full bg-neon-pink/10 blur-[120px] animate-float-slow" />
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] rounded-full bg-neon-blue/5 blur-[150px] animate-pulse-glow" />
@@ -33,9 +33,9 @@ const HeroSection = () => {
       <FloatingShapes />
       <ParticleField />
 
-      {}
+      { }
       <motion.div style={{ y: contentY, opacity }} className="relative z-10 text-center max-w-5xl px-6">
-        <h1 className="font-display text-5xl md:text-7xl lg:text-8xl font-extrabold leading-tight mb-6">
+        <h1 className="font-display text-xl md:text-3xl lg:text-4xl font-bold leading-tight mb-6">
           <TextReveal text="Zego" gradient delay={0.3} className="block md:inline" />
           <TextReveal text="— Crafting Visual Stories That" delay={0.5} className="block md:inline text-foreground" />
           <TextReveal text="Convert" gradient delay={1.0} className="block md:inline" />
@@ -45,7 +45,7 @@ const HeroSection = () => {
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 1.3 }}
-          className="text-lg md:text-xl text-muted-foreground mb-10 tracking-wide"
+          className="text-xs md:text-sm text-muted-foreground mb-10 tracking-wide"
         >
           {["Motion Graphics", "•", "Reel Editing", "•", "Design", "•", "Social Media Growth"].map((word, i) => (
             <motion.span
@@ -75,7 +75,7 @@ const HeroSection = () => {
         </motion.div>
       </motion.div>
 
-      {}
+      { }
       <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}

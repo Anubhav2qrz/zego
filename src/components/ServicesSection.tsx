@@ -53,7 +53,7 @@ const ServicesSection = () => {
           >
             Services
           </motion.p>
-          <h2 className="font-display text-4xl md:text-5xl font-bold text-foreground">
+          <h2 className="font-display text-3xl md:text-4xl font-bold text-foreground">
             What I <span className="gradient-text">Create</span>
           </h2>
         </motion.div>

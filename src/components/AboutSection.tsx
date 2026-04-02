@@ -52,7 +52,7 @@ const AboutSection = () => {
             >
               About
             </motion.p>
-            <h2 className="font-display text-4xl md:text-5xl font-bold text-foreground mb-6">
+            <h2 className="font-display text-3xl md:text-4xl font-bold text-foreground mb-6">
               Multi-Skilled <span className="gradient-text">Creative</span> Freelancer
             </h2>
             <p className="text-muted-foreground max-w-2xl mx-auto text-lg leading-relaxed">

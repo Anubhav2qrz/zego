@@ -91,7 +91,7 @@ const PortfolioSection = () => {
           >
             Portfolio
           </motion.p>
-          <h2 className="font-display text-4xl md:text-5xl font-bold text-foreground">
+          <h2 className="font-display text-3xl md:text-4xl font-bold text-foreground">
             Selected <span className="gradient-text">Works</span>
           </h2>
         </motion.div>

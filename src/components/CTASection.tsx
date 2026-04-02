@@ -37,7 +37,7 @@ const CTASection = () => {
           animate={inView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.7 }}
         >
-          <h2 className="font-display text-4xl md:text-6xl font-bold text-foreground mb-6">
+          <h2 className="font-display text-3xl md:text-5xl font-bold text-foreground mb-6">
             Let's Build Your <span className="gradient-text">Brand</span>
           </h2>
           <p className="text-lg text-muted-foreground mb-10 max-w-xl mx-auto">
